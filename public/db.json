@@ -1,0 +1,115 @@
+{
+  "usuario": [
+    {
+      "nombre": "Scott",
+      "age": 34,
+      "username": "scott",
+      "password": "123456",
+      "rol_id": "1"
+    },
+    {
+      "nombre": "Super",
+      "age": 15,
+      "username": "super",
+      "password": "123456",
+      "rol_id": "3"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "type": "admin"
+    },
+    {
+      "id": "2",
+      "type": "client"
+    },
+    {
+      "id": "3",
+      "type": "supervisor"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Producto Nº1",
+      "productUrl": "https://movicenter-web.s3.us-east-2.amazonaws.com/pics2/Nissan/Versa-2.png",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+
+    {
+      "id": 2,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 7000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 3,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 1200000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 4,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 5,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 6,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 7,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    },
+    {
+      "id": 8,
+      "nombre": "Producto Nº2",
+      "productUrl": "https://www.hyundai.cl/content/uploads/hyu-cl-header-mobile-new-atos.jpg",
+      "marca": "marca",
+      "precio": 9000000,
+      "tipo_de_combustible": "tipo de combustible",
+      "propietario": "propietario",
+      "kilometros": " 0 kilometros"
+    }
+  ]
+}

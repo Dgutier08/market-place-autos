@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: auto;
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.menu {
+  background-color: #72706f;
+  height: 65px;
+}
+.menu a {
+  text-decoration: none;
+  color: #000;
+}
+.icono {
+  color: rgb(88, 85, 85);
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  background: #ffffff;
+  color: #ffffff;
+  padding: 20px 0;
+  height: 1630px;
+}
+.cartas {
+  margin-top: 5px;
+}
+.card {
+  background: #edf3f7;
+  color: #110f0f;
+}
+.card-title {
+  color: #110f0f;
+}
+.textos-cartas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+}
+.inputs-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.input {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.add_client_register {
+  margin-top: 10px;
+  width: 300px;
+}
+.boton-cartas {
+  border: none;
+  background: #f78120;
+  height: 30px;
+}
+.boton-aside-menu {
+  padding: 2px;
+  background: #ffff;
+  width: 100px;
+}
+.banner-padre {
+  margin-top: 5px;
+}
+.banner-parrafo {
+  background: #d8f0ef;
+  font-size: 15px;
+}
+.banner-parrafo2 {
+  background: #45adaa;
+  font-size: 15px;
+}
+.banner-parrafo p {
+  color: #000;
+}
+.boton-parrafo-banner {
+  background: #9daa54;
+
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.menus button {
+  margin-bottom: 40px;
+}
+
+.banner1-aside {
+  margin-top: 70px;
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+}
+.banner1-aside2 {
+  margin-top: 10px;
+  width: 130px;
+  height: 120px;
+  border-radius: 10px;
+}
+.menu-aside {
+  margin-top: 60px;
+}
+aside {
+  background: #2f4046;
+  padding: 60px 0;
+  color: #0d47a1;
+  height: 1993px;
+}
+
+footer {
+  padding: 20px 0;
+  background: #ffffff;
+  color: #ffff;
+}
+.banner6 {
+  width: 100%;
+  height: 300px;
+  background: #45adaa;
+}
+.ChildernImg-banner6-Footer {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 700px) {
+  main {
+    height: auto;
+  }
+  aside {
+    height: 300px;
+    background: #eff5f5;
+  }
+  .menus img,
+  .menus h5 {
+    display: none;
+  }
+  .boton-parrafo-banner {
+    padding: 5px;
+  }
+  .ChildernImg-banner6-Footer {
+    display: none;
+  }
+  .banner6 {
+    display: none;
+  }
+  .cartas {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+.formulario {
+  background: #0d47a1;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen-carta img {
+  width: 250px;
+  height: 250px;
+  width: 600px;
+  height: 370px;
+  border: 1px solid #2f4046;
+}
+.imagen-texto p {
+  display: flex;
+  flex-direction: column;
+  font-size: 8px;
+}
+.imagen-texto label {
+  font-size: 12px;
+}
+.boton-detalle-producto {
+  background: #45adaa;
+}
+.padre {
+  height: auto;
+}
+.productos-registrar {
+  background: #3da3a0;
+}
+.form-register {
+  background: hsl(49, 100%, 64%);
+}
